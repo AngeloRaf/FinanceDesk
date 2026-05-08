@@ -1,0 +1,25 @@
+# FinanceDesk v1.1 — Dépendances Python
+# Installer avec : pip install -r requirements.txt
+
+# Interface graphique (fenêtre desktop + rendu HTML)
+pywebview==6.2.1
+
+# Sécurité — hash mot de passe maître
+bcrypt==4.2.1
+
+# Export Excel
+openpyxl==3.1.5
+
+# Export PDF (rapports financiers)
+reportlab==4.2.5
+
+# Envoi emails SMTP (inclus dans stdlib Python — pas besoin d'installer)
+# smtplib — stdlib
+
+# Packaging en .exe standalone
+pyinstaller==6.20.0
+
+# Optionnel : chiffrement du mot de passe SMTP stocké en config
+cryptography==43.0.3
+
+pillow
